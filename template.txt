@@ -6,19 +6,18 @@ _INPUT = """\
 1
 2 2 2
 333
+4 5
 """
 sys.stdin = io.StringIO(_INPUT)
 
-# your code here
+# ------------ your code here ---------------
 
-var1 = int(input())
-print(var1)
-# → 1
-
+var = int(input())
+# print(var1) → 1
 var2 = map(int, input().split())
-print(list(var2))
-# → [2, 2, 2]
-
+# print(list(var2)) → [2, 2, 2]
 var3 = list(input())
-print(var3)
-# → ['3', '3', '3']
+# print(var3) → ['3', '3', '3']
+var4,var5 = map(int, input().split())
+# print(var4)→ 4
+# print(var5)→ 5
