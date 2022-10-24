@@ -6,7 +6,7 @@ def main():
     if len(set(s)) == 1:
         print("No")
     else:
-        print("yes")
+        print("Yes")
 
 if __name__ == '__main__':
     main()

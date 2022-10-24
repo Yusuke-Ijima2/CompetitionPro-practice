@@ -1,5 +1,9 @@
 # CompetitionPro-practice
 
+atcoder フロー自動化プログラム
+
+参考:https://qiita.com/chokoryu/items/4b31ffb89dbc8cb86971
+
 コンテストの問題は{コンテスト名}\_{問題名}.py というファイル名で problems ディレクトリに全部突っ込みます。
 ファイル名の{コンテスト名}部分は、AtCoder のコンテストページの URL と同じでないと動作しないので注意して下さい。
 https://atcoder.jp/contests/{コンテスト名}
