@@ -1,22 +1,8 @@
-import io
-import sys
-
-# input here
-_INPUT = """\
-10 6
-"""
-sys.stdin = io.StringIO(_INPUT)
-
-# ------------ your code here ---------------
-
-H,A = map(int, input().split())
-
-if H % A == 0 :
-    print(H//A)
-else:
-    print(H//A +1)
-
 # 切り上げ
+a = "A"
+b = str(a) # 型変換
 
-for i in range(10, 20):
-    print(++i)
+# 文字列を並び替える
+S = "AtCoder"
+S = "".join(sorted(S))
+print(S) # "ACdeort"を出力

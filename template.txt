@@ -12,12 +12,12 @@ sys.stdin = io.StringIO(_INPUT)
 
 # ------------ your code here ---------------
 
-var = int(input())
-# print(var1) → 1
-var2 = map(int, input().split())
-# print(list(var2)) → [2, 2, 2]
-var3 = list(input())
-# print(var3) → ['3', '3', '3']
-var4,var5 = map(int, input().split())
-# print(var4)→ 4
-# print(var5)→ 5
+N = int(input())
+# print(N) → 1
+A = map(int, input().split())
+# print(list(A)) → [2, 2, 2]
+B = list(input())
+# print(B) → ['3', '3', '3']
+C,D = list(map(int, input().split()))
+# print(C)→ 4
+# print(D)→ 5
