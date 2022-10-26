@@ -45,6 +45,9 @@ for i in range(H):
             if S[ni][nj] =='#':
                 result[i][j] += 1
 
-# 出力形式に合わえて出力
+# print(result)
+# 出力形式に合わせて出力
 for row in result:
+    print(row)
+    #　*で配列をなくして半角スペース区切りで出力し、sepで半角をなくしている
     print(*row, sep='')
