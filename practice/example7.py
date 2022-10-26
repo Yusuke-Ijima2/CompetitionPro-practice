@@ -24,5 +24,3 @@ for i in range(N):
         result += a[i]
     else:
         result -= a[i]
-
-print(result)
