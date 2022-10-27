@@ -45,7 +45,6 @@ for i in range(H):
             if S[ni][nj] =='#':
                 result[i][j] += 1
 
-# print(result)
 # 出力形式に合わせて出力
 for row in result:
     print(row)
