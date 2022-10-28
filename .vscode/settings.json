@@ -1,7 +1,6 @@
 {
   "editor.tabSize": 4,
   "files.exclude": {
-    "**/cptest.sh": true,
-    "**/test": true
+    "**/cptest.sh": true
   }
 }

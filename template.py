@@ -31,3 +31,8 @@ F = input()
 # print(F)→ test
 
 print(A,B,C,D,E,F)
+
+s =[]
+for i in range(N):
+    a = int(input())
+    s.append(a)
