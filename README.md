@@ -16,3 +16,5 @@ AtCoder Beginner Contest 158 の A 問題
 日立製作所 社会システム事業部 プログラミングコンテスト 2020 の C 問題
 (URL:https://atcoder.jp/contests/hitachi2020/tasks/hitachi2020_c)
 →hitachi2020_c.py
+
+shift + command + B で提出
