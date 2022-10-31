@@ -19,7 +19,7 @@ DY = [0,1,0,-1,1,1,-1-1]
 # 入力
 H,W = map(int,input().split())
 S = [input() for i in range(H)]
-# print(S)
+print(S)
 
 # 答えを表すには二次元配列を用意する('.'のところは0とする)
 result = [[0 if v == '.' else '#' for v in row] for row in S]
@@ -48,5 +48,5 @@ for i in range(H):
 # 出力形式に合わせて出力
 for row in result:
     print(row)
-    #　*で配列をなくして半角スペース区切りで出力し、sepで半角をなくしている
+    # 　*で配列をなくして半角スペース区切りで出力し、sepで半角をなくしている
     print(*row, sep='')
