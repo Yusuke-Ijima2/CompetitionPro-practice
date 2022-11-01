@@ -38,6 +38,8 @@ for i in range(H):
 
 que.append([sy, sx])
 
+print(que)
+
 while que:
     y, x = que.popleft()
 
