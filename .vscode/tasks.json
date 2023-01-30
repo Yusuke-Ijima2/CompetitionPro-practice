@@ -10,7 +10,7 @@
         "isDefault": true
       },
       "type": "shell",
-      "command": "${workspaceFolder}/cptest.sh",
+      "command": "${workspaceFolder}/test.sh",
       "args": ["${fileBasenameNoExtension}"]
     }
   ]
